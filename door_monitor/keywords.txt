@@ -1,0 +1,6 @@
+DoorMonitor	KEYWORD1
+isDoorClosed	KEYWORD2
+openOverride	KEYWORD2
+setDoorLocked	KEYWORD2
+setDoorUnlocked	KEYWORD2
+isDoorLocked	KEYWORD2
