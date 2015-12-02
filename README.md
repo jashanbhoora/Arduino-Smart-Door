@@ -2,6 +2,7 @@
 The code and wiring behind the Arduino Smart Door
 
 Blog post: http://www.jashanbhoora.co.uk/blog/thales-project-arduino
+
 Video: https://www.youtube.com/watch?v=8-D_LgbKshE
 
 This repository contains all the files that were written for the Arduino Smart Door created for the Thales Arduino Challenge 2014.
