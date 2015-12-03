@@ -14,7 +14,7 @@ The Smart Door code consists of 4 components:
 <p>Highest level logic.</p>
 
 <h5>The FPS_GT511C3 Library</h5>
-<p>To interface with the fingerprint sensor.</p>
+<p>To interface with the fingerprint sensor: https://github.com/sparkfun/Fingerprint_Scanner-TTL</p>
 
 <h5>motor_controller</h5>
 <p>Maintains the state of the stepper motor in code. This was written in a couple of days, and it is highly likely that there are existing libraries that are better written, and do this in a better way.</p>
@@ -25,22 +25,24 @@ The Smart Door code consists of 4 components:
 # Parts
 <p>Aside from the code, the follow components were also used</p>
 <ul>
-    <li>12V Power Supply for the motor</li>
+    <li>Power Supply for the motor</li>
     <li>Bipolar Stepper motor (4 wires)</li>
     <li>Arduino Uno</li>
+    <li>Fingerprint Sensor</li>
     <li>Push Button</li>
+    <li>SPST switch</li>
     <li>L293D Motor Driver</li>
     <li>Reed Switch and magnet</li>
     <li>Lots of wire</li>
 </ul>
 
 # Usage
-<p>Not much in the way of instructions I'm sorry to say...<p>
+<p>Not much in the way of instructions...<p>
 <ol>
     <li>Install the libraries into your local Arduino libraries folder</li>
     <li>Connect components to the Arduino according to the circuit diagram</li>
     <li>Cross fingers and test</li>
 </ol>
 
-<p>Most of the pins were chosen arbitrarily, so changing them should not be a problem.</p>
+<p>Most of the pins were chosen arbitrarily, so changing them should not be a problem. The numbers in the diagram do not refer to the pins on the Arduino, so you'll need to look at the Arduino project to find those.</p>
 <p>Send me a question if I've missed something!</p>
